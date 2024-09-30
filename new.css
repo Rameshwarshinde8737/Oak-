@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pan-card {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom, #9bc2d7, #c9b2ca);
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.pan-card h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.pan-card .govt {
+    text-align: center;
+    font-size: 18px;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+.pan-card .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pan-card .header img {
+    width: 80px;
+}
+
+.pan-card .photo {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 100px;
+    height: 120px;
+    border: 2px solid #000;
+    background-color: #e2e2e2;
+}
+
+.pan-card .info {
+    margin-left: 140px;
+    
+}
+
+.pan-card .info p {
+    margin: 4px 0;
+    font-size: 16px;
+
+}
+
+.pan-card .info .bold {
+    font-weight: bolder;
+    
+}
+
+.pan-card .qr-code {
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
+    width: 120px;
+    height: 120px;
+    background-color: #e2e2e2;
+    text-align: center;
+    line-height: 120px;
+    border: 2px solid #000;
+}
+
+.pan-card .footer {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    bottom:30px;
+    font-size: 13px;
+    color: black;
+}
+
+.pan-card .footer .notice {
+    font-size: 10px;
+    margin-top: 5px;
+}
